@@ -10,7 +10,7 @@ using namespace std;
 
 void main() {
 
-	string path = "Resources/lambo.png";
+	string path = "Resources/shapes.png";
 	Mat img = imread(path);
 	Mat imgHSV, mask;
 	int hmin = 0, smin = 110, vmin = 153;
